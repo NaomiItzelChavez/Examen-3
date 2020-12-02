@@ -80,3 +80,10 @@ img{
 .barra .logo img{
     width: 90px;
 }
+/*Footter*/
+.footter{
+    background-color: black;
+    color:white;
+    height: 6rem;
+}
+

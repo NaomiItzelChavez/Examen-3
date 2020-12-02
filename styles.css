@@ -32,7 +32,7 @@ header ul a{
 header ul a:hover{
     color: #71b100;
 }
-
+/*accesorios*/
 .header-main-pic{
     width: 100%;
     height: 500px;
@@ -41,6 +41,41 @@ header ul a:hover{
     background-position: center center;
     background-size: cover;
 }
+@media (min-width:768px){
+    .iconos-index{
+        display: flex;
+        justify-content: space-between;    
+    }
+}
+
+.icono{
+   flex-basis: calc(33.3% - 2rem) ;
+   text-align: center;
+   line-height: 2;
+}
+.icono img{
+    height: 12rem;
+    width: 16rem;
+}
+.icono h3{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+.texto-centrado{
+    text-align: center;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+.cambio-seccion{
+    margin-top: .3rem;
+    margin-bottom: 2rem;
+}
+.productos3{
+    padding-left: 26rem;
+}
+
 /*Header de trajes de baño*/
 .header-main-pic1{
     width: 100%;
@@ -50,11 +85,20 @@ header ul a:hover{
     background-position: center center;
     background-size: cover;
 }
+.navegacion{
+    display: flex;
+    background-color: #ffffff;
+}
+.navegacion a{
+    color: black;
+    padding-left: 17rem;
+    font-size: 1.5rem;
+}
 /*Header de ofertas*/
 .header-main-pic2{
     width: 100%;
     height: 400px;
-    background-image: url(img/sale-606687_1280.png);
+    background-image: url(img/pexels-karolina-grabowska-5650042.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
