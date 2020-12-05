@@ -15,6 +15,13 @@ html{
 img{
     max-width: 100%;
 }
+.texto-centrado{
+    text-align: center;
+}
+
+.fw-300{
+    font-weight: 500;
+}
 /*Header*/
 .site-header.inicio{
     background-image: url(../img/beach-418742_1920.jpg);
@@ -76,9 +83,53 @@ img{
     line-height: 2;
     padding-bottom: 6rem;
     font-family: Century ;
+    padding-left: 8rem;
 }
 .barra .logo img{
     width: 90px;
+}
+.text{
+    font-size: 3rem;
+}
+.informacion{
+    background-image: url(../img/landscape-4109455_1920.jpg);
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+
+    min-height: 21rem;
+    background-position: center center;
+    background-size: 106rem;
+    line-height: 2;
+    color: #ffffff;
+}
+
+.tema{
+    margin: 4rem 0rem 6rem 9rem;
+}
+/*Iconos-index*/
+
+@media (min-width:768px){
+    .iconos-index{
+        display: flex;
+        justify-content: space-between;    
+    }
+}
+
+.icono{
+   flex-basis: calc(33.3% - 2rem) ;
+   text-align: center;
+   line-height: 2;
+}
+
+.icono h3{
+    text-transform: uppercase;
+}
+.titulo{
+    font-size: 2rem;
+}
+.foto{
+    width: 11rem;
 }
 /*Footter*/
 .footter{
